@@ -3,6 +3,7 @@ h1 {
     color: white;
     font-size: 100px;
     text-align: center;
+    vertical-align: middle;
 }
 
 body {
