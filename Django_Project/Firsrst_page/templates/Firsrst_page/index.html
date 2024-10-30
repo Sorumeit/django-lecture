@@ -5,6 +5,10 @@
         <link rel="stylesheet" href="{% static 'Firsrst_page/style.css' %}">
     </head>
     <body>
-        <h1> Hello Zhansen! </h1>
+        {% if newyear %}
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
     </body>
 </html>
